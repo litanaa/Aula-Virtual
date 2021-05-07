@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+div.superior{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+div.superior a i{
+    color: white;
+    font-size: 1.3em;
+    margin-left: 1em;
+    padding: 0.4em 0;
+}
+
+header nav{
+   margin:20px;
+}
+
+.links-navbar a{
+    color: white;
+}
+
+i.fab{
+    color: black;
+}
+
+div img.foto{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    margin: 5px;
+}
+
+
+.registro{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form label{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+form input[type="text"]{
+    width: 50%;
+}
+
+footer div h5, footer div h5 ul li a{
+    vertical-align: inherit;
+}
+
+@media (max-width: 576px){
+    form input[type="text"]{
+        width: 90%;
+    }
+
+}
+ 
+
+@media (min-width: 576px) and (max-width: 780px){
+    form input[type="text"]{
+        width: 70%;
+    }
+
+}
+

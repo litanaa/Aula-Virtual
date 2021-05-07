@@ -1,0 +1,118 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+div.superior{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+div.superior a i{
+    color: white;
+    font-size: 1.3em;
+    margin-left: 1em;
+    padding: 0.4em 0;
+}
+
+header nav{
+   margin:20px;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.links-navbar a{
+    color: white;
+}
+
+i.fab{
+    color: black;
+}
+
+.elFondo{
+    text-align: center;
+    height: 20em;
+}
+
+.elFondo h1{
+
+    color: white;
+    font-weight: lighter;
+  }
+
+  .elFondo h4{ 
+    color: blanchedalmond;
+    font-weight: lighter;
+  }
+  
+  .elFondoSolido{
+    float: left;
+    width: 35%;
+    background-color: #5b2c6f;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  a.boton{
+      padding: 10px;
+      border: 1px solid;
+      color: white;
+      border-radius: 5px;;
+  }
+  
+  .elFondoLente{
+    float: right;
+    width: 65%;
+    background-image: url('../img/jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .secciones{
+      border: 1px solid;
+      border-color:wheat;
+      border-style: groove;
+  }
+
+  footer div h5, footer div h5 ul li a{
+    vertical-align: inherit;
+  }
+
+
+  .elFondoSolido {  
+    animation: animate__bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  .elFondoLente {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 1s; /* don't forget to set a duration! */
+  }
+
+  @media (max-width: 576px){
+    .elFondoSolido{
+        float: left;
+        width: 100%;
+  }
+  .elFondoLente{
+    display: none;
+  }
+}
+
+   @media (min-width: 576px) and (max-width: 780px){
+    .elFondoSolido{
+        float: left;
+        width: 100%;
+  }
+  .elFondoLente{
+    display: none;
+  }
+}

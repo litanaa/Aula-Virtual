@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+div.superior{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+div.superior a i{
+    color: white;
+    font-size: 1.3em;
+    margin-left: 1em;
+    padding: 0.4em 0;
+}
+
+header nav{
+   margin:20px;
+}
+
+.links-navbar a{
+    color: white;
+}
+
+i.fab{
+    color: black;
+}
+
+div img.foto{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    margin: 5px;
+}
+
+
+.conocenos{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.conocenos p {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+
+footer div h5, footer div h5 ul li a{
+    vertical-align: inherit;
+}
+
+@media (max-width: 576px){
+    .elFondoSolido{
+        float: left;
+        width: 100%;
+  }
+  .elFondoLente{
+    display: none;
+  }
+}
+
+   @media (min-width: 576px) and (max-width: 780px){
+    .conocenos p {
+        width: 90%;
+
+    }
+
+    .conocenos p {
+        width: 90%;
+
+    }
+}
+
