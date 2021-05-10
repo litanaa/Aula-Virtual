@@ -1,89 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/descripcion.css">
     <title>Optical Store</title>
-    <script src="https://kit.fontawesome.com/61e275e2c2.js" crossorigin="anonymous"></script>
+
+    <!--Links-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Scripts-->
+    <script src="https://kit.fontawesome.com/61e275e2c2.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body >
-    
-    <header style="background-color: #FACEB1">
+<body>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="conocenos.html">Conocenos</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="registro.html">Registro</a>
-            <a href="sucursales.html">Sucursales</a>
+    <header>
+
+        <div class="superior">
+            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="http://Instagram.com" target="_blank"><i class="fab fa-instagram"></i><a>
+                    <a href="https://wa.me/99999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mx-auto">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="120" height="70" alt="logo"
+                    style="padding-bottom: 10px; margin-left: 40px;">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin: 0 auto;">
+
+                    <li class="nav-item dropdown" style="padding-left: 10px;">
+                        <a class="nav-link dropdown-toggle font-weight-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PRODUCTOS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html#seccionLentesSol">Anteojos de Sol</a>
+                            <a class="dropdown-item" href="index.html#seccionRecetados">Recetados</a>
+                        </div>
+                    </li>
+                    <li class="nav-item font-weight-lighter" style="padding-left: 10px;">
+                        <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">CONTACTO</a>
+                    </li>
+                    <li class="nav-item font-weight-lighter" style="padding-left: 10px;">
+                        <a class="nav-link" href="registro.html" tabindex="-1" aria-disabled="true">REGISTRO</a>
+                    </li>
+                    <li class="nav-item font-weight-lighter" style="padding-left: 10px;">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"> TUS COMPRAS <i
+                                class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item font-weight-lighter" style="padding-left: 10px;">
+                        <a class="nav-link text-dark" href="index.html" tabindex="-1" aria-disabled="true"><i
+                                class="fas fa-glasses"></i></a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
         </nav>
-
-            <h1 align="center">
-                <font color="white">Optical Store</font>               
-            </h1>
 
     </header>
 
+    <hr>
+
     <main>
 
-        <section>
+        <section class="descripcion">
+
+
             <h3>Anteojos de sol</h3>
-            <div style="text-align: center;">
-                <img src="img/descarga.jpeg" alt="anteojo de sol" width="300">
+
+            <div class="row">
+
+            <div class="laImagen">
+                <img class="lente1" src="img/descarga.jpeg" alt="anteojo de sol">
             </div>
-            <br>
-            
-            <p>Descripción</p>
-            <ul>
-                <li>Las gafas tienen marco de acrílico y cristales de policarbonato con protección uv400.</li>
-                <li>Incluye estuche y gamuza de regalo.</li>
-            </ul>
 
-            <table border="1">
-                <tr>
-                    <th colspan="2">Medidas</th>
-                </tr>
-                <tr>
-                    <td>Ancho total</td>
-                    <td>14,3 cm</td>
-                </tr>
-                <tr>
-                    <td>Alto</td>
-                    <td>5,2 cm</td>
-                </tr>
-                <tr>
-                    <td>Puente</td>
-                    <td>2 cm</td>
-                </tr>
-                <tr>
-                    <td>Patilla</td>
-                    <td>14 cm</td>
-                </tr>
-            </table>
+            <div class="laDescripcion">
+                <p>Descripción</p>
+                <ul>
+                    <li>Las gafas tienen marco de acrílico y cristales de policarbonato con protección uv400.</li>
+                    <li>Incluye estuche y gamuza de regalo.</li>
+                </ul>
 
+                <table border="1">
+                    <tr>
+                        <th colspan="2">Medidas</th>
+                    </tr>
+                    <tr>
+                        <td>Ancho total</td>
+                        <td>14,3 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Alto</td>
+                        <td>5,2 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Puente</td>
+                        <td>2 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Patilla</td>
+                        <td>14 cm</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
         </section>
 
     </main>
 
-    <br>
 
-    <footer style="background-color: #FACEB1">
+    <hr>
 
-           <br>
-           <div style="text-align: center; ">
-                <a href="http://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                <a href="http://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                <a href="http://Instagram.com"><i class="fab fa-instagram-square"></i></a>
-           </div>
-           <p style="text-align: center;">Acá va el footer </p> 
-           <br>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img src="../img/logo.png" alt="" style="width: 50px; height: 30px;">
+                <small class="d-block mb-3 text-muted">© Optical Store</small>
+            </div>
+
+            <div class="col-6 col-md">
+                <h5>Productos</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#seccionLentesSol">Anteojos de Sol</a></li>
+                    <li><a class="text-muted" href="#seccionRecetados">Recetados</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md">
+                <h5>Consultas Frecuentes</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="conocenos.html">¿Quiénes Somos?</a></li>
+                    <li><a class="text-muted" href="#">Envios</a></li>
+                    <li><a class="text-muted" href="#">Tiempos</a></li>
+                    <li><a class="text-muted" href="#">Costos</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-6 col-md">
+                <h5>Contactanos</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="contacto.html"><i class="far fa-envelope"></i> Correo</a></li>
+                    <li><a class="text-muted" href="https://wa.me/99999" target="_blank"><i class="fab fa-whatsapp"></i>
+                            Whatsapp</a></li>
+                    <li><a class="text-muted" target="_blank"
+                            href="https://es-la.facebook.com/opticalstore.campana.7/"><i class="fab fa-facebook-f"></i>
+                            Facebook</a></li>
+                    <li><a class="text-muted" target="_blank"
+                            href="https://www.instagram.com/opticalstorecampana/?hl=es-la"><i
+                                class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
 
     </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
 
